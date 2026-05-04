@@ -13,6 +13,8 @@ layout="wide"
 st.set_page_config(page_title="KNN Classifier App", layout="wide")
 
 st.title("KNN Classifier App")
+st.markdown("---")
+st.caption("Built with Streamlit | Machine Learning Demo")
 st.write("Upload your dataset and train a KNN model interactively.")
 st.sidebar.title("Settings")
 

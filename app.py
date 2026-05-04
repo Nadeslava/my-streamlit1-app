@@ -47,6 +47,7 @@ if uploaded_file is not None:
     model.fit(X_train, y_train)
 
     accuracy = model.score(X_test, y_test)
+    st.write("Model trained successfully!")
 
     st.subheader("Model Performance")
     st.success(f"Accuracy: {accuracy:.2f}")
